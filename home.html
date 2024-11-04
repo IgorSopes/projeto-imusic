@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+   
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href=https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+
+    <title>Imusic</title>
+    <link rel = "icon" href = "imagens/circle-play-regular.svg" type = "image/x-icon">
+  </head>
+  <body>
+
+    
+    
+    <nav id="sidebar">
+      <div id="sidebar-content">
+      <div id="user">
+        <img src="imagens/avatar.jpeg"  id="user_avatar" alt="user avatar">
+        <p id="user-infos">
+          <span class="item-description">Igor Santos</span>
+          <span class="item-description">Edit profile</span>
+        </p>
+      </div>
+      <ul id="side-items">
+
+        <li class="side-item">
+          <a href="#">
+            <i class="fa-solid fa-chart-line"></i>
+            <span class="item-description">Overview</span>
+          </a>
+        </li>
+        <li class="side-item">
+          <a href="#">
+            <i class="fa-solid fa-house"></i>
+            <span class="item-description">Dashboard</span>
+          </a>
+        </li>
+        <li class="side-item">
+          <a href="#">
+            <i class="fa-solid fa-newspaper"></i>
+            <span class="item-description">News</span>
+          </a>
+        </li>
+        <li class="side-item">
+          <a href="#">
+            <i class="fa-solid fa-circle-play"></i> 
+            <span class="item-description">Playlists</span>
+          </a>
+        </li>
+        <li class="side-item">
+          <a href="#">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <span class="item-description">Discover</span>
+          </a>
+        </li>
+
+      </ul>
+      <button id="open-btn">
+        <i  id="open-btn-icon"class="fa-solid fa-chevron-right"></i>
+      </button>
+
+    </div>
+
+    <div id="logout">
+      <button id="logout-btn">
+        <i class="fa-solid fa-arrow-right-from-bracket"></i>
+        <span class="item-description">Logout</span>
+      </button>
+    </div>
+    </nav>
+    <main>
+      <div id="container">
+        <div id="search">
+            <input type="search" name="search" id="search-input" placeholder="Encontre artistas, albúns ou músicas...">
+            <label for ="search-input" class="fa-solid fa-magnifying-glass" id="search-icon"></label>
+        </div>
+
+        <div id="playlist">
+          <h2>Parecidas com o que você gosta:</h2>
+
+          <div id="playlist-item">
+          <div class="album">
+            <div class="album-img">
+              <img src="imagens/liniker-disco-caju.jpg" alt="liniker-disco-caju">
+            </div>
+            <div class="album-info">
+              <h2>Liniker</h2>
+              <span>4,1 mi ouvintes mensais</span>
+            </div>
+          </div>
+        <div class="album">
+          <div class="album-img">
+            <img src="imagens/batidao-tropical2.jpeg" alt="pabllo-vitar-batidao-tropical">
+          </div>
+          <div class="album-info">
+            <h2>Pabllo Vittar</h2>
+            <span>20,5 mi ouvintes mensais</span>
+          </div>
+        
+        </div>
+        <div class="album">
+          <div class="album-img">
+            <img src="imagens/honeyrevenge.jpg" alt="honeyrevenge">
+          </div>
+          <div class="album-info">
+            <h2>Honey Revenge</h2>
+            <span>649,1 mi ouvintes mensais</span>
+          </div>
+        
+        </div>
+        <div class="album">
+          <div class="album-img">
+            <img src="imagens/Kat-and-the-Hurricane.jpg" alt="pabllo-vitar-batidao-tropical">
+          </div>
+          <div class="album-info">
+            <h2>Kat and the Hurricane</h2>
+            <span>8.326 ouvintes mensais</span>
+          </div>
+        
+        </div>
+        </div>
+
+
+
+
+
+      </div>
+
+
+     
+     <div id="views">
+      <div id="profile-views">
+        <h2>Mais tocadas no último mês</h2>
+        <div class="container-views">
+          <div class="views-item">
+            <div class="views-img">
+              <img src="imagens/URIAS.jpg" alt="cantora urias">
+            </div>
+            <div class="views-info">
+              <p>Urias</p>
+              <span>1 day ago</span>
+            </div>
+            <span>4 albuns</span>
+          </div>
+          <div class="views-item">
+            <div class="views-img">
+              <img src="imagens/NOAHFINNCE.jpg" alt="cantor NOAHFINNCE">
+            </div>
+            <div class="views-info">
+              <p>NOAHFINNCE</p>
+              <span>2 days ago</span>
+            </div>
+            <span>1 album</span>
+          </div>
+          <div class="views-item">
+            <div class="views-img">
+              <img src="imagens/melly.jpeg" alt="album amarissima melly">
+            </div>
+            <div class="views-info">
+              <p>Melly</p>
+              <span>1 day ago</span>
+            </div>
+            <span>1 album</span>
+          </div>
+        </div>
+      </div>
+    
+      <div class="tracks">
+        <h2>Todas as músicas</h2>
+        <div class="container-tracks">
+          <div class="track-item">
+            <div class="track-img">
+              <img src="imagens/chameleo.jpg" alt="album chameleo">
+            </div>
+            <p>Chamaleo</p>
+              <img src="imagens/empathogen.jpg" alt="album empathogen">
+            </div>
+            <p>Empathogen</p>
+           
+          </div>
+          <div class="track-item">
+            <div class="track-img">
+              <img src="imagens/chappel-roan.jpg" alt="album">
+            </div>
+            <p>Chappel Roan</p>
+            
+          </div>
+          <div class="track-item">
+            <div class="track-img">
+              <img src="imagens/gloria groove.jpg" alt="album Gloria Groover">
+            </div>
+            <p>Gloria Groove</p>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+      </div>
+    </main>
+    
+    
+    
+    
+    
+
+    <script src="script.js"></script>
+    
+  </body>
+</html>
